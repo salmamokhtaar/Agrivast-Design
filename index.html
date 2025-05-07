@@ -1,259 +1,512 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
-        <title>AgriTech</title>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="AgriVasti - Revolutionizing Agriculture with Technology">
+        <meta name="keywords" content="agriculture, farming, agritech, sustainable farming">
+        <title>AgriVasti - Agricultural Technology Solutions</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="Assets/favicon.ico">
     </head>
     <body>
-        <div class="header">
-            <h1>AgriTech Vista</h1>
-            <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Contact</li>
-            </ul>
-            <i  id="menu-icon" class="fa-solid fa-bars"></i>
-            
-            <div id="buttons">
-                <button class="login-btn">Login</button>
-                <button class="signin-btn">SignUp</button>
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <h1>AgriVasti</h1>
+                </div>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-buttons">
+                    <button class="login-btn">Login</button>
+                </div>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
             </div>
-        </div>
+        </header>
 
-
-
-        <div class="showcase">
-
-            <h1>The Role of Technology in Revolutionizing Agriculture</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos esse, perferendis, a eaque laudantium voluptatum molestias porro sunt minus provident distinctio soluta molestiae ullam ad. Suscipit, numquam nostrum. Quo, cum?</p>
-            <button class="login-btn">Get Started</button>
-            <button id="learn-btn" class="signin-btn">Learn More</button>
-        </div>
-
-
-
-        <div class="about-parent">
-            <div class="about-left">
-                <h1>Our Passion for Agriculture Nurturing Growth and Sustaining the Future</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa laudantium, ut tempora molestias laborum architecto magni?</p>
-                <button class="login-btn">Get Started</button>
-            </div>
-
-            <div class="about-right">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKGQ7FhSJLABad9qSKzs_hZAC-01x5op4cuw&usqp=CAU">
-                <button>Since 1977</button>
-            </div>
-
-        </div>
-
-
-
-        <div class="service">
-            <h1>Our service</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At cum recusandae error, deleniti optio inventore cupiditate.</p>
-
-            <div class="box-parent">
-
-                <div class="box">
-                    <i class="fa-regular fa-pen-to-square"></i>
-                    <h2>Blog and article writing</h2>
-                </div>
-
-                <div class="box">
-                    <i class="fa-regular fa-pen-to-square"></i>
-                    <h2>Blog and article writing</h2>
-                </div>
-
-                <div class="box">
-                    <i class="fa-regular fa-pen-to-square"></i>
-                    <h2>Blog and article writing</h2>
-                </div>
-
-                <div class="box">
-                    <i class="fa-regular fa-pen-to-square"></i>
-                    <h2>Blog and article writing</h2>
-                </div>
-
-            </div>
-
-        </div>
-
-
-        <div class="product">
-            <h1>Our Featured Product</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora dolorum obcaecati aperiam facere.</p>
-            
-            <div class="product-parent">
-
-                <div class="product1">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKGQ7FhSJLABad9qSKzs_hZAC-01x5op4cuw&usqp=CAU">
-                    <h2>Rice</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quam?</p>
-                </div>
-                <div class="product1">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKGQ7FhSJLABad9qSKzs_hZAC-01x5op4cuw&usqp=CAU">
-                    <h2>Rice</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quam?</p>
-                </div>
-                <div class="product1">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKGQ7FhSJLABad9qSKzs_hZAC-01x5op4cuw&usqp=CAU">
-                    <h2>Rice</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quam?</p>
-                </div>
-                <div class="product1">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKGQ7FhSJLABad9qSKzs_hZAC-01x5op4cuw&usqp=CAU">
-                    <h2>Rice</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quam?</p>
-                </div>
-
-            </div>
-        
-        </div>
-
-
-            <div class="farming-hero">
-                <h1>Sustainable farming meets technology:<br>Building the greener future</h1>
-                <button class="login-btn">Learn More</button>
-                <button id="learn-btn" class="signin-btn">Contact us</button>
-            </div>
-
-
-
-            <div class="benefit-parent">
-                <div class="benefit-left">
-                    <h1>The benefits of choosing our expertise </h1>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium, laborum!</p>
-                    <button class="login-btn">Learn More <i class="fa-solid fa-arrow-right"></i></button>
-                </div>
-
-                <div class="benefit-right">
-                    
-                    <div class="icon">
-                        <i class="fa-solid fa-star"></i>
-                        <div>
-                            <h1>15+</h1>
-                            <p>Years of experience</p>
-                        </div>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Revolutionizing Agriculture with Technology</h1>
+                    <p>Empowering farmers with innovative solutions for sustainable farming and increased productivity. Join us in building a greener, more efficient agricultural future.</p>
+                    <div class="hero-buttons">
+                        <button class="primary-btn">Get Started</button>
+                        <button class="secondary-btn">Learn More</button>
                     </div>
+                </div>
+                <div class="hero-image">
+                    <img src="Assets/bc.jpg" alt="Modern Agriculture Technology">
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#about"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
 
-                    <div class="icon">
-                        <i class="fa-solid fa-star"></i>
-                        <div>
-                            <h1>300+</h1>
-                            <p>Years of experience</p>
-                        </div>
-                    </div><div class="icon">
-                        <i class="fa-solid fa-star"></i>
-                        <div>
-                            <h1>30+</h1>
-                            <p>Years of experience</p>
-                        </div>
-                    </div><div class="icon">
-                        <i class="fa-solid fa-star"></i>
-                        <div>
-                            <h1>150+</h1>
-                            <p>Team of experience</p>
+
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">Our Passion for Agriculture</h2>
+                        <h3 class="section-subtitle">Nurturing Growth and Sustaining the Future</h3>
+                        <p>At AgriVasti, we're dedicated to transforming traditional farming through innovative technology. Our solutions help farmers increase yields, reduce resource usage, and adopt sustainable practices for a better tomorrow.</p>
+                        <ul class="about-features">
+                            <li><i class="fas fa-leaf"></i> Sustainable Farming Practices</li>
+                            <li><i class="fas fa-tractor"></i> Modern Agricultural Technology</li>
+                            <li><i class="fas fa-seedling"></i> Eco-friendly Solutions</li>
+                        </ul>
+                        <button class="primary-btn">Discover More</button>
+                    </div>
+                    <div class="about-image">
+                        <img src="Assets/baa.jpg" alt="Sustainable Farming">
+                        <div class="experience-badge">
+                            <span>Since</span>
+                            <strong>2015</strong>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <div class="Testominals">
 
-                <h1> Testimonials</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque id ipsam consectetur minima ad nesciunt quis suscipit voluptate, eius, nemo magnam dolorem voluptas officia mollitia architecto magni dolore tempora rem. </p>
-                <i class="fa-solid fa-star"></i>
- 
 
-                <div class="Testominals-middle">
-                    
-                    <div>
-                    <img src="Assets/rr.jpg">
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-description">We offer a range of innovative agricultural solutions designed to enhance productivity and sustainability.</p>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>Smart Farming Solutions</h3>
+                        <p>IoT-based monitoring systems for soil health, crop growth, and environmental conditions.</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
                     </div>
 
-                    <div class="left-test">
-                        
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <h2>Madeline Williamson</h2>
-                    <h5>Forward Creative Manager</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, laborum ex quasi voluptate saepe atque doloremque architecto officiis natus ipsam!</p>
-                </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-cloud-rain"></i>
+                        </div>
+                        <h3>Precision Irrigation</h3>
+                        <p>Water-efficient irrigation systems that deliver the right amount of water at the right time.</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h3>Sustainable Farming</h3>
+                        <p>Eco-friendly farming practices that reduce environmental impact while maximizing yields.</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Farm Analytics</h3>
+                        <p>Data-driven insights to optimize farm operations and increase profitability.</p>
+                        <a href="#" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <div class="Blog">
-                
-                <h1>Our Blog</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione tempora dolorum obcaecati aperiam facere.</p>
-               <div class="Blog-parent">
-                <div class="Blog1">
-                    <img src="Assets/baa.jpg">
-                    <h1>InnovHub</h1>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed eligendi deserunt provident sint nesciunt voluptate reprehenderit amet minima nobis.</p>
-                    <h4>Read More</h4>
-                </div>
-                <div class="Blog1">
-                    <img src="Assets/baa.jpg">
-                    <h1>Innov Hub</h1>
+        <section id="products" class="products">
+            <div class="container">
+                <h2 class="section-title">Our Featured Products</h2>
+                <p class="section-description">Discover our range of high-quality agricultural products designed to enhance your farming experience.</p>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed eligendi deserunt provident sint nesciunt voluptate reprehenderit amet minima nobis.</p>
-                    <h4>Read More</h4>
-
-                </div>
-                <div class="Blog1">
-                    <img src="Assets/baa.jpg">
-                    <h1>Innov Hub</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed eligendi deserunt provident sint nesciunt voluptate reprehenderit amet minima nobis.</p>
-                    <h4>Read More</h4>
-                </div>
-               </div>
-               </div>
-               <div class="footer">
-    
-                <div class="newletter-parent">
-                    <div>
-                        <h1>Agrivist Farms</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaqu<br>e dolore sapiente voluptate reprehenderit!</p>
-                    </div>
-                  
-                </div>
-            
-                <div class="links-parent">
-                    <div class="links-left">
-                        <div class="logo">
-                            <i class="fa-solid fa-camera"></i>
-                            <i class="fa-solid fa-globe"></i>
-                            <i class="fa-brands fa-behance"></i>
-                            <i class="fa-brands fa-instagram"></i>
-            
-            
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Assets/bac.jpg" alt="Organic Rice">
+                            <div class="product-tag">Best Seller</div>
+                        </div>
+                        <div class="product-info">
+                            <h3>Organic Rice</h3>
+                            <p>Premium quality organic rice grown using sustainable farming practices.</p>
+                            <div class="product-action">
+                                <span class="product-price">$24.99</span>
+                                <button class="product-btn">View Details</button>
+                            </div>
                         </div>
                     </div>
-            
-                    <div class="right-links">
-                        <div>
-                         <h3>Pages</h3>
-                         <p>Home</p>
-                         <p>About </p>
-                         <p>Product</p>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Assets/pizza1.jpg" alt="Smart Soil Sensor">
+                            <div class="product-tag">New</div>
                         </div>
-                        <div>
-                            <h3>About</h3>
-                            <p>Our Services</p>
-                            <p>Contact us</p>
-                            <p>Benefit</p>
-                           </div>
+                        <div class="product-info">
+                            <h3>Smart Soil Sensor</h3>
+                            <p>IoT-enabled soil monitoring device for optimal crop management.</p>
+                            <div class="product-action">
+                                <span class="product-price">$149.99</span>
+                                <button class="product-btn">View Details</button>
+                            </div>
+                        </div>
                     </div>
-            
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Assets/pizza2.jpg" alt="Organic Fertilizer">
+                        </div>
+                        <div class="product-info">
+                            <h3>Organic Fertilizer</h3>
+                            <p>Eco-friendly fertilizer that enhances soil health and crop yield.</p>
+                            <div class="product-action">
+                                <span class="product-price">$39.99</span>
+                                <button class="product-btn">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="Assets/download.jpg" alt="Drip Irrigation Kit">
+                        </div>
+                        <div class="product-info">
+                            <h3>Drip Irrigation Kit</h3>
+                            <p>Water-efficient irrigation system for small to medium farms.</p>
+                            <div class="product-action">
+                                <span class="product-price">$89.99</span>
+                                <button class="product-btn">View Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="view-all">
+                    <button class="secondary-btn">View All Products</button>
                 </div>
             </div>
-            
+        </section>
 
+
+        <section class="cta-banner">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Sustainable Farming Meets Technology</h2>
+                    <p>Join us in building a greener future with innovative agricultural solutions</p>
+                    <div class="cta-buttons">
+                        <button class="primary-btn">Learn More</button>
+                        <button class="secondary-btn light">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits-content">
+                    <div class="benefits-text">
+                        <h2 class="section-title">Why Choose AgriVasti</h2>
+                        <p class="section-description">We combine agricultural expertise with cutting-edge technology to deliver solutions that make a real difference.</p>
+                        <ul class="benefits-list">
+                            <li><i class="fas fa-check-circle"></i> Innovative agricultural solutions</li>
+                            <li><i class="fas fa-check-circle"></i> Sustainable farming practices</li>
+                            <li><i class="fas fa-check-circle"></i> Expert team of agricultural specialists</li>
+                            <li><i class="fas fa-check-circle"></i> Proven results with increased yields</li>
+                        </ul>
+                        <button class="primary-btn">Learn More <i class="fas fa-arrow-right"></i></button>
+                    </div>
+
+                    <div class="benefits-stats">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3>8+</h3>
+                                <p>Years of Experience</p>
+                            </div>
+                        </div>
+
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3>300+</h3>
+                                <p>Happy Farmers</p>
+                            </div>
+                        </div>
+
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-globe-asia"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3>30+</h3>
+                                <p>Countries Served</p>
+                            </div>
+                        </div>
+
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="stat-info">
+                                <h3>15+</h3>
+                                <p>Industry Awards</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-description">Hear from farmers who have transformed their agricultural practices with our solutions.</p>
+
+                <div class="testimonial-slider">
+                    <div class="testimonial-slide active">
+                        <div class="testimonial-card">
+                            <div class="testimonial-image">
+                                <img src="Assets/rr.jpg" alt="Farmer John Smith">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"AgriVasti's smart farming solutions have revolutionized how I manage my farm. The soil sensors and irrigation system have helped me reduce water usage by 30% while increasing crop yield."</p>
+                                <div class="testimonial-author">
+                                    <h3>Madeline Williamson</h3>
+                                    <p>Organic Farmer, California</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-image">
+                                <img src="Assets/download.jpg" alt="Farmer Sarah Johnson">
+                            </div>
+                            <div class="testimonial-content">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"The farm analytics platform from AgriVasti has given me insights I never had before. I can now make data-driven decisions that have improved my farm's profitability significantly."</p>
+                                <div class="testimonial-author">
+                                    <h3>Robert Chen</h3>
+                                    <p>Rice Farmer, Thailand</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-controls">
+                    <button class="testimonial-control prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="testimonial-control next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="blog">
+            <div class="container">
+                <h2 class="section-title">Latest From Our Blog</h2>
+                <p class="section-description">Stay updated with the latest trends and insights in agricultural technology.</p>
+
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="Assets/baa.jpg" alt="Sustainable Farming Practices">
+                            <div class="blog-category">Farming</div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date">
+                                <i class="far fa-calendar-alt"></i> May 5, 2023
+                            </div>
+                            <h3>5 Sustainable Farming Practices for Modern Agriculture</h3>
+                            <p>Discover eco-friendly farming techniques that can help reduce environmental impact while maintaining high productivity.</p>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="Assets/bac.jpg" alt="IoT in Agriculture">
+                            <div class="blog-category">Technology</div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date">
+                                <i class="far fa-calendar-alt"></i> April 18, 2023
+                            </div>
+                            <h3>How IoT is Transforming Modern Agriculture</h3>
+                            <p>Learn how Internet of Things (IoT) technology is revolutionizing farming with real-time monitoring and data analytics.</p>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-image">
+                            <img src="Assets/bc.jpg" alt="Water Conservation">
+                            <div class="blog-category">Resources</div>
+                        </div>
+                        <div class="blog-content">
+                            <div class="blog-date">
+                                <i class="far fa-calendar-alt"></i> March 29, 2023
+                            </div>
+                            <h3>Water Conservation Techniques for Agricultural Success</h3>
+                            <p>Explore innovative water management strategies that can help farmers conserve this precious resource while maintaining crop yields.</p>
+                            <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="blog-action">
+                    <a href="#" class="secondary-btn">View All Posts</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">Have questions about our products or services? We'd love to hear from you!</p>
+
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Our Location</h3>
+                                <p>123 Farming Road, Agritech Valley, CA 94043</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Phone Number</h3>
+                                <p>+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email Address</h3>
+                                <p>info@agrivasti.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-about">
+                        <h3 class="footer-logo">AgriVasti</h3>
+                        <p>Revolutionizing agriculture through innovative technology and sustainable farming practices.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-links">
+                        <div class="footer-links-column">
+                            <h3>Quick Links</h3>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#products">Products</a></li>
+                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links-column">
+                            <h3>Services</h3>
+                            <ul>
+                                <li><a href="#">Smart Farming</a></li>
+                                <li><a href="#">Precision Irrigation</a></li>
+                                <li><a href="#">Sustainable Farming</a></li>
+                                <li><a href="#">Farm Analytics</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links-column">
+                            <h3>Subscribe</h3>
+                            <p>Subscribe to our newsletter for the latest updates.</p>
+                            <form class="footer-subscribe">
+                                <input type="email" placeholder="Your Email">
+                                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p>&copy; 2023 AgriVasti. All Rights Reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <a href="#home" class="back-to-top">
+            <i class="fas fa-chevron-up"></i>
+        </a>
+
+        <script src="script.js"></script>
     </body>
 </html>
